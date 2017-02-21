@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context reloadable = "true">
+    <Resource
+        name="jdbc/sampleDS"
+        type="javax.sql.DataSource"
+        maxActive="10"
+        maxIdle="10"
+        username="sa"
+        password="123456"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url="jdbc:sqlserver://localhost:1433;DatabaseName=Park"/>
+</Context>
